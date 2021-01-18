@@ -1,7 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang=en><head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJ8L7VZSCV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<head>
+  gtag('config', 'G-WJ8L7VZSCV');
+</script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -383,7 +388,74 @@ $(window).on("scroll", function(){
   </div>
     
 </div>
-        
+        <div class="row">
+            <div class="columns2">
+                <div class="card"> 
+                    <br><img src="assets/img/aboutus/Lauren%20Willmott.png" alt="Lauren Willmott" style="width:30%; display:block; margin:auto; border-radius: 10px;"><br>
+                    <div class="container" style="text-align: center !important;">
+        <h2>Lauren Willmott</h2>
+                        <p class="title">Researcher</p><p>Lauren completed her undergraduate degree (First Class) in History and German at the University of Nottingham. She has an MA (Distinction) in Modern History from King’s College London. She is primarily a historian of the Second World War and the Holocaust.
+                        </p> <span id="dotsLau">
+                        </span> <span id="contentLau"> <br> She is also an experienced genealogy researcher having spent four years as a records specialist at The National Archives in Kew. <br><br>Lauren has published articles for History Today and her book Images of the National Archives: Suffragettes was published in 2018. Her latest article, written with Dr Gilly Carr, ‘A Right to Compensation After Persecution? British Victims of Nazism’ in the Beyond Camps and Forced Labour volume is due for publication in February 2021.<br><br>Lauren has been a curator at a major national museum for 4 years. She is currently working on a new permanent exhibition, which will open later this year. 
+                        </span><br><br> 
+                        <button onclick="readMoreFunctionLau()" id="buttonReadMoreLau" class="intro-btn">Read More</button><br><br>
+                        <style>#contentLau{display:none}</style> 
+                        <script>
+                            function readMoreFunctionLau(){
+                                var dots=document.getElementById("dotsLau");
+                                var contentText=document.getElementById("contentLau");
+                                var btnText=document.getElementById("buttonReadMoreLau");
+                                if(dots.style.display==="none"){
+                                    dots.style.display="inline";
+                                    btnText.innerHTML="Read More";
+                                    contentText.style.display="none";
+                                }
+                                else{
+                                    dots.style.display="none";
+                                    btnText.innerHTML="Read Less";
+                                    contentText.style.display="inline";
+                                }
+                            }
+                        </script> 
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="columns2"></div>
+            <div class="columns2">
+                <div class="card" style="text-align: center !important;"> <br>
+                    <img src="assets/img/aboutus/Oliver%20Bradbury.jpg" alt="Oliver Bradbury" style="width:27%; display:block; margin:auto; border-radius: 10px;"><br>
+                    <div class="container" style="text-align: center !important;">
+                        <h2>Oliver Bradbury</h2>
+                        <p class="title">Architectural researcher</p>
+                        <p>Oliver Bradbury is an architecture researcher and design historian. Since 2008 he has been self-employed, having previously worked as a Listed Building and Blue Plaque Consultant for English Heritage (2002-04) and in 2006 a trainee Conservation Officer for the London Borough of Ealing. In 2006-08 Oliver was Assistant Architectural Adviser to Hampstead Garden Suburb Trust, London.</p> 
+                        <span id="dotsOli"></span> 
+                        <span id="contentOli"> <br>Having gained a Master of Letters (M.Litt.) in 2003, in 2018 Oliver was awarded a Ph.D. based largely on his 2015 book, Sir John Soane’s Influence on Architecture from 1791 – A Continuing Legacy (Ashgate Publishing Company). <br> He has published five books and numerous articles since 1995. Outside his paid work as an architectural researcher, Oliver’s debut exhibition in 2018 was ‘The music that saved a decade: divining the eighties underground (through original perceptions), 1979-1991’, Barbican Music Library, 14 July-5 October 2018. <br><br>This has just been published in book form in late 2020. And Oliver is also probably the world’s first automobile Colour and Trim design historian, currently publishing an ongoing series: ‘Vanden Plas Car Colour and Trim Guides 1960-1982’, in Carriagecraft The Vanden Plas Owners Club Magazine. He will debut Colour and Trim as a new genre in Aspects of Motoring History, The Journal of the Society of Automotive Historians in Britain, in 2021. 
+                        </span><br><br> 
+                        <button onclick="readMoreFunctionOli()" id="buttonReadMoreOli" class="intro-btn">Read More</button><br><br>
+                        <style>#contentOli{display:none}</style>
+                        <script>
+                            function readMoreFunctionOli(){
+                                var dots=document.getElementById("dotsOli");
+                                var contentText=document.getElementById("contentOli");
+                                var btnText=document.getElementById("buttonReadMoreOli");
+                                if(dots.style.display==="none"){
+                                    dots.style.display="inline";
+                                    btnText.innerHTML="Read More";
+                                    contentText.style.display="none";
+                                }
+                                else{
+                                    dots.style.display="none";
+                                    btnText.innerHTML="Read Less";
+                                    contentText.style.display="inline";
+                                }
+                            }
+                        </script> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+
         <br><br><br><h2 style="text-align:center">Our Creative Team</h2><br>
         
     <div class="row">
